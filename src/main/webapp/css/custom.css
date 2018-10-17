@@ -1,6 +1,6 @@
 .card{
     position: absolute;
-    left:50%;
+    left:30%;
 
 }
 .wrapper {
@@ -9,4 +9,17 @@
 }
 .content{
     margin-top: 13%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card{
+        position: absolute;
+        left:0;
+        width: 380px;
+    }
+    .content{
+        margin-top: 40%;
+    }
+
 }
